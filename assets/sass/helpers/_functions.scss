@@ -1,9 +1,0 @@
-@function weight($weight-name) {
-  @return map-get($font-weights, $weight-name);
-}
-
-///return rem unit
-///@params $pixels without unit px
-@function rem($pixels) {
-  @return #{$pixels / 16}rem;
-}

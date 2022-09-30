@@ -1,9 +1,15 @@
-@import url("../_variables.scss");
+/* start variables */
+:root {
+  --pink-font: #ff5fb5;
+  --blue-font: #0b60df;
+  --background-color: #2e0224;
+}
+/* end variables */
 *,
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -28,6 +34,7 @@ html {
 }
 
 body {
+  font-family: "Cairo", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -47,105 +54,25 @@ body {
 }
 
 /* medium */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .container {
     width: 970px;
   }
-}
+} */
 
 /* large */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-}
-
-.col-1 {
-  width: 8.33333%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-2 {
-  width: 16.66667%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-3 {
-  width: 25%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-4 {
-  width: 33.33333%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-5 {
-  width: 41.66667%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-6 {
-  width: 50%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-7 {
-  width: 58.33333%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-8 {
-  width: 66.66667%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-9 {
-  width: 75%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-10 {
-  width: 83.33333%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-11 {
-  width: 91.66667%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
-
-.col-12 {
-  width: 100%;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-}
+} */
 
 /* end global rules */
 body {
   font-size: 1.1875rem;
+  background-color: var(--background-color);
 }
-/*# sourceMappingURL=main.css.map */
+
+.test {
+  background-color: red;
+}
